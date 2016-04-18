@@ -1,0 +1,9 @@
+int l =5;
+string triangulo = "";
+for(int i =0;i <= l;i++){
+	for(int j =1;j < l; j++){
+		triangulo += (l * j) + " ";
+	}
+	triangulo += "\n";
+}
+MessageBox.Show(triangulo);
